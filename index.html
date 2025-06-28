@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-background">
+        <video id="background-video" autoplay loop muted playsinline>
+            <source src="127349-738456855cloudy_tiny.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="weather-container">
+        <h1>Current Weather</h1>
+        <div class="location-input">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="get-weather-btn">Get Weather</button>
+        </div>
+        
+        <div id="weather-display" class="weather-info">
+            <p>Enter a city and click "Get Weather" or wait for default location.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
