@@ -41,6 +41,5 @@ Add event listeners to handle button clicks and auto-load weather for a default 
 Frontend Calls Backend: Instead of calling OpenWeatherMap directly, your script.js would make a request to your own backend server
  Backend Calls External API: Your backend server receives the request. This backend code then makes the call to the OpenWeatherMap API, using your API_KEY.
 Crucial Benefit: The API_KEY is stored securely on your server and is never exposed to the client-side (browser).
-
-6. Run the App: Preview your app using VS Code's Live Server plugin. Alternatively, open index.html in your browser.**
+Run the App: Preview your app using VS Code's Live Server plugin. Alternatively, open index.html in your browser.**
 
