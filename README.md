@@ -43,3 +43,7 @@ Frontend Calls Backend: Instead of calling OpenWeatherMap directly, your script.
 Crucial Benefit: The API_KEY is stored securely on your server and is never exposed to the client-side (browser).
 Run the App: Preview your app using VS Code's Live Server plugin. Alternatively, open index.html in your browser.**
 
+*output*
+
+![Image](https://github.com/user-attachments/assets/6f65b836-2dd7-4785-8ede-55a93b944603)
+![Image](https://github.com/user-attachments/assets/88a7e127-673f-49cf-806b-0f9fed089650)
